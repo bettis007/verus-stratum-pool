@@ -1,6 +1,11 @@
 High performance Stratum poolserver for equihash in Node.js. One instance of this software can startup and manage multiple coin
 pools, each with their own daemon and stratum port :)
 
+# IMPORTANT
+
+This fork does not pay any pool fees, because `s-nomp/node-stratum-pool` does not support Zcash NU5 transactions.
+Instead, all fees are paid to the address in the node configuration.
+
 #### Notice
 This is a module for Node.js that will do nothing on its own. Unless you're a Node.js developer who would like to
 handle stratum authentication and raw share data then this module will not be of use to you. For a full featured portal
