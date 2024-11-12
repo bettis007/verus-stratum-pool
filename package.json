@@ -25,9 +25,10 @@
         "url": "https://github.com/s-nomp/node-stratum-pool.git"
     },
     "dependencies": {
-        "async": "^2.6.1",
+        "async": "3.2.6",
         "base58-native": "^0.1.4",
-        "bignum": "^0.13.0",
+        "bignum": "0.13.1",
+        "verushash": "git+https://github.com/VerusCoin/verushash-node.git",
         "bitgo-utxo-lib": "git+https://github.com/upbqdn/bitgo-utxo-lib.git",
         "equihashverify": "git+https://github.com/upbqdn/equihashverify.git",
         "merkle-bitcoin": "^1.0.2",
